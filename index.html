@@ -135,7 +135,7 @@
           </div>
           <hr>
           <div>
-            <p class="text-center p-2">1500</p>
+            <p class="text-center p-2"><span class="counter">1500</span></p>
           </div>
         </li>
       </ul>
@@ -1928,7 +1928,13 @@
   <!-- waypoint js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
   <!-- scroll reveal js -->
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.counter').counterUp({
+    delay: 10,
+    time: 5000
+});
+  </script>
   <!-- tailwind js -->
   <script src="js/index.min.js"></script>
   <!-- ionicon -->
